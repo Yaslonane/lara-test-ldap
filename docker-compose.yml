@@ -59,4 +59,7 @@ services:
 # composer require barryvdh/laravel-debugbar --dev  ***install debugbar***
 
 # composer require directorytree/ldaprecord-laravel   ***ldap***  https://ldaprecord.com/docs/laravel/v1/installation
-# 
+# php artisan vendor:publish --provider="LdapRecord\Laravel\LdapServiceProvider"
+# прописывание настроек ldap в файле .env
+# php artisan ldap:test ***проверка работы ldap***
+# ##
