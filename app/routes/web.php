@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::any('test', [MainController::class, 'test']);
+//Route::any('test', [MainController::class, 'test']);

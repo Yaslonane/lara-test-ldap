@@ -14,7 +14,7 @@ class MainController extends Controller
         //echo phpinfo();
         //$connect = new User();
         //$connect->getConnection();
-        $login = "azashchepkin";
+        /*$login = "azashchepkin";
         $user = User::getInfoUser($login);
         if (count($user)==0) {
             echo "Логина <b>".$login."</b> нет в AD";
@@ -23,6 +23,7 @@ class MainController extends Controller
             print_r($user);
             echo "</pre>";
         }
-        
+        */
+        return 1;
     }
 }
