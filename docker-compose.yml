@@ -2,6 +2,7 @@ version: '3.7'
 services:
   php-apache:
     container_name: php-apache
+    user: www-data:www-data
     build:
       context: ./php
       dockerfile: Dockerfile

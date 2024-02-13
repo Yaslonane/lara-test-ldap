@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Detection' => array($vendorDir . '/mobiledetect/mobiledetectlib/namespaced'),
+    'Lavary\\Menu\\' => array($vendorDir . '/lavary/laravel-menu/src'),
 );

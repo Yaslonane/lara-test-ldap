@@ -40,11 +40,6 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
-            /*ldap config */
-        'web' => [
-            'driver' => 'session',
-            'provider' => 'ldap', // Changed to 'ldap'
-        ],
     ],
 
     /*
@@ -74,11 +69,6 @@ return [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
-                /*ldap config */
-        'ldap' => [
-            'driver' => 'ldap',
-            'model' => LdapRecord\Models\ActiveDirectory\User::class,
-        ],
     ],
 
     /*
